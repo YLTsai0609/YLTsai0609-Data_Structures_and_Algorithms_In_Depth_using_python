@@ -6,7 +6,7 @@
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
-| 1 - 3   | 11/15     | conte |
+| 1 - 3   | 11/15     |  |
 
 # Useful Reference
 
