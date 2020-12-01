@@ -28,6 +28,6 @@ most important part :
 
 Time Complexity : $O(N)$
 
-Space Complexity $O(1)$
+Space Complexity : $O(1)$
 
 worst case is add to the last, take N steps to compelete.

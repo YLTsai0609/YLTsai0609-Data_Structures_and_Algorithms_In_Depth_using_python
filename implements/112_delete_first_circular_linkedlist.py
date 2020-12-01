@@ -1,7 +1,7 @@
 '''
-add any
-Time : O(N)
-Space : O(1)
+add first on circular linked list
+Time O(1)
+Spcae O(1)
 '''
 
 
@@ -13,7 +13,7 @@ class _Node:
         self._next = next
 
 
-class LinkedList:
+class CircularLinkedList:
     def __init__(self):
         self._head = None
         self._tail = None
@@ -28,8 +28,10 @@ class LinkedList:
     def add_last(self, e):
         newest = _Node(e, None)
         if self.is_empty():
+            newest._next = newest
             self._head = newest
         else:
+            newest._next = self._tail._next
             self._tail._next = newest
         self._tail = newest
         self._size += 1
@@ -37,63 +39,60 @@ class LinkedList:
     def add_first(self, e):
         newest = _Node(e, None)
         if self.is_empty():
-            self._head = newest
+            newest._next = newest  # circular link
             self._tail = newest
         else:
+            self._tail._next = newest  # circluar link
             newest._next = self._head
-            self._head = newest
+        self._head = newest
         self._size += 1
 
     def add_any(self, e, position):
-        '''
-        the convension might be misleading here
-        if position = 3,
-        it will be
-        n1 --> n2 --> your value --> n4 --> n5
-        '''
         if position <= 0 or position > len(self):
             print('cannot insert outside of size')
             return
         elif position == 1:
             self.add_first(e)
             return
-        newest = _Node(e, None)
-        p = self._head
-        i = 1
-        while i < position - 1:
-            p = p._next
-            i += 1
-        newest._next = p._next
-        p._next = newest
-        self._size += 1
+        else:
+            newest = _Node(e, None)
+            p = self._head
+            i = 1
+            while i < position - 1:
+                p = p._next
+                i += 1
+            newest._next = p._next
+            p._next = newest
+            self._size += 1
+
+    def remove_first(self):
+        if self.is_empty():
+            print('Circular List is Empty')
+            return
+        e = self._head._element
+        self._tail._next = self._head._next
+        self._head = self._head._next
+        self._size -= 1
+        if self.is_empty():
+            self._head = None
+            self._tail = None
+        return e
 
     def display(self):
         p = self._head
-        while p:
+        i = 0
+        while i < len(self):
             print(p._element, end='-->')
             p = p._next
+            i += 1
         print()
 
-    def search(self, key):
-        p = self._head
-        index = 0
-        while p:
-            if p._element == key:
-                return index
-            p = p._next
-            index += 1
-        return -1
 
-
-L = LinkedList()
-L.add_last(7)
-L.add_last(4)
-L.add_last(12)
-L.display()
-print('Size : ', len(L))
-L.add_last(8)
-L.add_last(3)
-print('Size : ', len(L))
-L.display()
-L.add_any(40, 6)
-L.display()
+c = CircularLinkedList()
+c.add_last(7)
+c.add_last(3)
+c.add_last(12)
+print('Size : ', len(c))
+c.display()
+c.remove_first()
+c.display()
