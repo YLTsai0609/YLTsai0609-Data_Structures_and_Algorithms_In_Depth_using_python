@@ -1,5 +1,5 @@
 '''
-delete last on circular linked list
+delete last in circular linked list
 Time O(N)
 Spcae O(1)
 '''

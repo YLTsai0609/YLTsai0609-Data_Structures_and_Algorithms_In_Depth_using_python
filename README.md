@@ -12,6 +12,8 @@
 |8|11/25||
 |7 - 1|11/30|single linked list
 |7 - 2|12/1|circlar linked list
+|7 - 3|80%|doubled linked list
+|A-1|40%||
 
 # Useful Reference
 

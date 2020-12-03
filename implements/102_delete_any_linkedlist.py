@@ -1,5 +1,5 @@
 '''
-delete last
+delete any
 Time : O(N)
 Space : O(1)
 '''

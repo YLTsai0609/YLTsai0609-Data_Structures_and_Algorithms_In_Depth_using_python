@@ -1,6 +1,6 @@
 '''
-add first on circular linked list
-Time O(1)
+add any on circular linked list
+Time O(N)
 Spcae O(1)
 '''
 

@@ -1,5 +1,5 @@
 '''
-delete head
+delete first
 Time : O(1)
 Space : O(1)
 '''
