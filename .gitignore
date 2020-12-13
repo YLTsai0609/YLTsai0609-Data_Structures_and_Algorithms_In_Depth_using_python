@@ -88,4 +88,5 @@ target/
 # Mypy cache
 .mypy_cache/
 
-
+# private class 
+python_data_structure_ntu/

@@ -1,5 +1,11 @@
 # Data Structures and Algorithms: In-Depth using Python
 
+This repo contains 
+
+1. Yu Long's note about data structures and algorithm in-depth using python on Udemy.
+
+2. Python data structure revisited by sereval resources.
+
 [Udemy Data Structures and Algorithms: In-Depth using Python](https://www.udemy.com/course/learning-data-structures-algorithms-in-python-from-scratch/learn/lecture/14520138#overview)
 
 # Schedule
@@ -14,7 +20,7 @@
 |7 - 2|12/1|circlar linked list
 |7 - 3|12/4|doubled linked list
 6|||
-|A-1|40%||
+|A-1|40%|python list revisited|
 
 # Useful Reference
 
@@ -23,3 +29,7 @@
 [[Note] Yu Long's cs50 note](https://github.com/YLTsai0609/cs50)
 
 [Sorting Algorithm visulization](https://visualgo.net/bn/sorting)
+
+流暢的Python O'REILLY
+
+[流暢的Python O'REILLY example code](https://github.com/fluentpython/example-code)
