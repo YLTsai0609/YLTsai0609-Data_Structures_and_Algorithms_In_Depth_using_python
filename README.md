@@ -21,6 +21,7 @@ This repo contains
 |7 - 3|12/4|doubled linked list
 6|||
 |A-1|40%|python list revisited|
+|A-2|80%|python hash-table|
 
 # Useful Reference
 
