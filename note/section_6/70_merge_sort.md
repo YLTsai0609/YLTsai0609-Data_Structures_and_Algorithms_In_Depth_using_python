@@ -67,8 +67,11 @@ merging algorithm need to combine left and right by sorting them.
 we use **B** for conbined array
 
 建立3個指標
+
 i : 左邊array的最左邊
+
 j : 右邊array的最左邊
+
 k : Combined array的最左邊
 
 開始比較
@@ -104,9 +107,7 @@ Algorithm merge(A, left, mid ,right)
 
 ```
 
-the same element will be stuck when compare with
-
-It's a **stable** sort =)
+# Stability
 
 # Complexity
 
@@ -132,4 +133,5 @@ Space : $O(1)$
 # Summary
 
 Time Complexity : $O(N log N)$
+
 Space Complexity : $O(N)$
