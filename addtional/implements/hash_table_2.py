@@ -37,7 +37,7 @@ class HashTable:
     def _prune_smaller(self):
         pass
 
-    def _are_buckets_oversparse(self, frac: float = .7):
+    def _are_buckets_over_sparsed(self, frac: float = .7):
         pass
 
     def add(self, e: Any) -> None:
