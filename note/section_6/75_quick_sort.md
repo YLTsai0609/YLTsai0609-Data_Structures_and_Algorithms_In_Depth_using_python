@@ -10,131 +10,107 @@
 * the elemenys to the left of povit are smaller than the pivot
 * the elemenys to the right of povit are larger than the pivot
 
-<img src='../asserts/70_1.png'></img>
-<img src='../asserts/70_2.png'></img>
-<img src='../asserts/70_3.png'></img>
-<img src='../asserts/70_4.png'></img>
-<img src='../asserts/70_5.png'></img>
-<img src='../asserts/70_6.png'></img>
-<img src='../asserts/70_7.png'></img>
-<img src='../asserts/70_8.png'></img>
-<img src='../asserts/70_9.png'></img>
-<img src='../asserts/70_10.png'></img>
-<img src='../asserts/70_11.png'></img>
-<img src='../asserts/70_12.png'></img>
-<img src='../asserts/70_13.png'></img>
-<img src='../asserts/70_14.png'></img>
-<img src='../asserts/70_15.png'></img>
-<img src='../asserts/70_16.png'></img>
-<img src='../asserts/70_17.png'></img>
-<img src='../asserts/70_18.png'></img>
-<img src='../asserts/70_19.png'></img>
-<img src='../asserts/70_20.png'></img>
-<img src='../asserts/70_21.png'></img>
-<img src='../asserts/70_22.png'></img>
-<img src='../asserts/70_23.png'></img>
+<img src='../asserts/75_1.png'></img>
 
-## Tree view
+element 92 could consider as a pivot(this definition will be useful when the problem is devided into small chunk)
 
-<img src='../asserts/70_24.png'></img>
-<img src='../asserts/70_25.png'></img>
-<img src='../asserts/70_26.png'></img>
-<img src='../asserts/70_27.png'></img>
-<img src='../asserts/70_28.png'></img>
-<img src='../asserts/70_29.png'></img>
-<img src='../asserts/70_30.png'></img>
+<img src='../asserts/75_2.png'></img>
 
-## Algorithm and Tree View
+element 54 could consider as a pivot(this definition will be useful when the problem is devided into small chunk)
 
-<img src='../asserts/70_31.png'></img>
-<img src='../asserts/70_32.png'></img>
-<img src='../asserts/70_33.png'></img>
+<img src='../asserts/75_3.png'></img>
 
-``` Python
-Algorithm merge_sort(A, left, right)
-  # no base case, becuase left always smaller than the right
-  if left < right then
-    mid = (left + right) / 2 # we need a integer here
-    merge_sort(A, left, mid) # the left tree
-    merge_sort(A, mid + 1, right) # the right tree
-    merge(A, left, mid, right) # combine the left part and right part, sorting them
+element 63 couldn't consider as a pivot
 
-```
+<img src='../asserts/75_4.png'></img>
 
-## merging and tree view
+92 and 15 is the edge of the array, they are both pivots and **sorted positions**
 
-<img src='../asserts/70_34.png'></img>
-<img src='../asserts/70_35.png'></img>
-<img src='../asserts/70_36.png'></img>
-<img src='../asserts/70_37.png'></img>
+## Partition
 
-merging algorithm need to combine left and right by sorting them.
-we use **B** for conbined array
+<img src='../asserts/75_5.png'></img>
 
-建立3個指標
-i : 左邊array的最左邊
-j : 右邊array的最左邊
-k : Combined array的最左邊
+the left part(smaller) -> one part
+the right part(larger) -> the other part
 
-開始比較
+This definition is called **partition**
 
-``` Python
-Algorithm merge(A, left, mid ,right)
-  i = left, j = mid+1, k = left
-  while i <= mid && j <= right
-    # 兩邊互比
-    if A[i] < A[j] then
-      B[k] = A[i] # 先把小的放進來
-      i +=1 # 小的比過了 +1
-      k +=1 # Conbined array idx + 1
-    else
-      B[k] = A[j]
-      j += 1
-      k += 1
-  while i <= mid
-    # 如果兩邊互比因為右邊先走到底(j == right)，那麼則會進入到這層
-    # 繼續把左邊的元素依序塞進來
-    B[k] = A[i]
-    i += 1
-    k += 1
-    while j <= right
-    # 如果兩邊互比因為左邊先走到底(i == mid)，那麼則會進入到這層
-    # 繼續把右邊的元素依序塞進來
-      B[k] = A[j]
-      j += 1
-      k += 1
-    for m = left, m <= right, m++
-      A[m] = B[m]
-    
+## Quick Sort
 
-```
+0. we have a colletions of elements
+1. we select an element as a pivot(start)
+2. rearrange the element such that the element match the definition as pivot
+3. recursively partition the left part and the right part
 
-the same element will be stuck when compare with
+the process 1, 2 as known as **partitioning**
+quick sort only work when we have more than one element
 
-It's a **stable** sort =)
+<img src='../asserts/75_6.png'></img>
+<img src='../asserts/75_7.png'></img>
+<img src='../asserts/75_8.png'></img>
 
-# Complexity
+## An Example
 
-## Merge function
+the partitioning
 
-<img src='../asserts/70_38.png'></img>
+1. i (the left), j(the right), pivot(the left)
+2. when i > pivot, i stop
+3. when j < pivot, j stop
+4. i, j stop -> swap
+5. when all the elements are traversed(i cross j)
+6. swap j and pivot(rearrange/find a pivot)
+7. recursively do the partitioning both left and right
+8. the base case is only one element(meaning it is a sorted position)
 
-we need to compare $n_1, n_2$ which is perportion to $n$, a temp array $B$
+visulization about left part 
 
-Time Complexity :  $O(N)$
-Space Complexity :  $O(N)$
+1. moving i to the pivot, then i stop
+2. j meet a stop condition
+3. i, j, crossed(get an aonther pivot)
 
-## Merge_sort function
+  
+note the stop condition allow the same value
+and the swapped position might be the center of the array
 
-<img src='../asserts/70_39.png'></img>
+<img src='../asserts/75_9.png'></img>
+<img src='../asserts/75_10.png'></img>
+<img src='../asserts/75_11.png'></img>
+<img src='../asserts/75_12.png'></img>
+<img src='../asserts/75_13.png'></img>
+<img src='../asserts/75_14.png'></img>
+<img src='../asserts/75_15.png'></img>
+<img src='../asserts/75_16.png'></img>
+<img src='../asserts/75_17.png'></img>
+<img src='../asserts/75_18.png'></img>
+<img src='../asserts/75_19.png'></img>
+<img src='../asserts/75_20.png'></img>
+<img src='../asserts/75_21.png'></img>
+<img src='../asserts/75_22.png'></img>
+<img src='../asserts/75_23.png'></img>
+<img src='../asserts/75_24.png'></img>
+<img src='../asserts/75_25.png'></img>
+<img src='../asserts/75_26.png'></img>
+<img src='../asserts/75_27.png'></img>
+<img src='../asserts/75_28.png'></img>
+<img src='../asserts/75_29.png'></img>
 
-A tree view, 
-
-Time Complexity : $O(log_{2}N)$
-
-Space : $O(1)$ 
-
-# Summary
-
-Time Complexity : $O(N log N)$
-Space Complexity : $O(N)$
+<img src='../asserts/75_30.png'></img>
+<img src='../asserts/75_31.png'></img>
+<img src='../asserts/75_32.png'></img>
+<img src='../asserts/75_33.png'></img>
+<img src='../asserts/75_34.png'></img>
+<img src='../asserts/75_35.png'></img>
+<img src='../asserts/75_36.png'></img>
+<img src='../asserts/75_37.png'></img>
+<img src='../asserts/75_38.png'></img>
+<img src='../asserts/75_39.png'></img>
+<img src='../asserts/75_40.png'></img>
+<img src='../asserts/75_41.png'></img>
+<img src='../asserts/75_42.png'></img>
+<img src='../asserts/75_43.png'></img>
+<img src='../asserts/75_44.png'></img>
+<img src='../asserts/75_45.png'></img>
+<img src='../asserts/75_46.png'></img>
+<img src='../asserts/75_47.png'></img>
+<img src='../asserts/75_48.png'></img>
+<img src='../asserts/75_49.png'></img>

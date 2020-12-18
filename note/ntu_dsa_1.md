@@ -154,7 +154,7 @@ for example, in C programming lessons
 | stage  | C      | DSA    |
 |--------|--------|--------|
 | req    | simple | simple |
-| req    | simple | simple |
+| analysis    | simple | simple |
 | design | simple | more   |
 | coding | ***    | ***    |
 | proof  | none   | some   |
