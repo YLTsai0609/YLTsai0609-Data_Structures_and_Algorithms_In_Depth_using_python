@@ -3,7 +3,7 @@ digits of maximum element d
 array size N
 
 Time O(dN), if N is large, almost O(N)
-Space O(1)
+Space O(N)
 '''
 
 

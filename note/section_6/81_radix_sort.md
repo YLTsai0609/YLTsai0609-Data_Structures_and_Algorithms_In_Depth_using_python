@@ -46,7 +46,7 @@ based on digits, then we only need 10 buckets
 <img src='../asserts/81_19.png'></img>
 <img src='../asserts/81_20.png'></img>
 
-5. refill them, now we are in 3 digits round. `028`,              `063` will be assigned to first bucket(`0` in the tmp array)
+5. refill them, now we are in 3 digits round. `028`,               `063` will be assigned to first bucket(`0` in the tmp array)
 
 ()
 <img src='../asserts/81_21.png'></img>
@@ -97,4 +97,6 @@ Consider the maxmim element is $d$ digits, the size of array is $N$
 
 Time : $O(dN)$
 
-Space : $O(1)$
+Space : $O(N)$
+
+Though only ten bins we created, but we need to append element into the bins. Hence, we using list, then we got $O(N)$
