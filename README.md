@@ -16,14 +16,22 @@ This repo contains
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
-| 1 - 3   | 11/15     |  |
-|4        |11/18      ||
-|5|11/23||
-|8|11/25||
-|7 - 1|11/30|single linked list
-|7 - 2|12/1|circlar linked list
-|7 - 3|12/4|doubled linked list
-6|||
+| 1 - 3(Environment and Complexity Analysis)   | 11/15     |  |
+|4 (Recursion)        |11/18      ||
+|5 (Searching)|11/23||
+|8 (Stacks)|11/25||
+|7 - 1 (Linked List)|11/30|single linked list
+|7 - 2 (Linked List)|12/1|circlar linked list
+|7 - 3 (Linked List)|12/4|doubled linked list
+6 (Sorting)|12/21||
+9 (Queues and DEque)|||
+10 (Binary Trees)|||
+11 (Binary Search Trees)|||
+12 (Balanced Search Trees)|||
+13 (Priority Queues & Heaps)|||
+14 (Hashing)|||
+15 (Graphs)|||
+16 (Appendix)|||
 |A-1|40%|python list revisited|
 |A-2|80%|python hash-table|
 
