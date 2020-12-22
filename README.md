@@ -32,8 +32,9 @@ This repo contains
 14 (Hashing)|||
 15 (Graphs)|||
 16 (Appendix)|||
-|A-1|40%|python list revisited|
+|A-1|100%|python list revisited|
 |A-2|80%|python hash-table|
+|A-3|80%|python array|
 
 ## Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU 
 
