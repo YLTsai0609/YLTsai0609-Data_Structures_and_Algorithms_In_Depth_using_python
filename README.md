@@ -24,7 +24,7 @@ This repo contains
 |7 - 2 (Linked List)|12/1|circlar linked list
 |7 - 3 (Linked List)|12/4|doubled linked list
 6 (Sorting)|12/21||
-9 (Queues and DEque)|||
+9 (Queues and DEque)|12/28||
 10 (Binary Trees)|||
 11 (Binary Search Trees)|||
 12 (Balanced Search Trees)|||
@@ -40,7 +40,7 @@ This repo contains
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
-| 1   | 12/16     |  DSA 20200303: Introduction to Data Structures and Algorithms|
+| 1(Introduction to Data Structures and Algorithms)   | 12/16     | |
 
 # Useful Reference
 
