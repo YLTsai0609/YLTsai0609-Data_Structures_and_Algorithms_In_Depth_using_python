@@ -40,7 +40,7 @@ This repo contains
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
-| 1(Introduction to Data Structures and Algorithms)   | 12/16     | |
+| 1(Introduction to Data Structures and Algorithms)   | 12/16     |  Structures and Algorithms|
 
 # Useful Reference
 
