@@ -10,6 +10,8 @@ This repo contains
 
 [Udemy Data Structures and Algorithms: In-Depth using Python](https://www.udemy.com/course/learning-data-structures-algorithms-in-python-from-scratch/learn/lecture/14520138#overview)
 
+[DSA 2020 from Hsuan-Tien Lin](https://www.youtube.com/watch?v=8IOv2fnc01E&list=PLXVfgk9fNX2Kda9rttSvGROCtRQ3Sb8bA&index=2)
+
 # Schedule
 
 ## Udemy Data Structures and Algorithms: In-Depth using Python
@@ -40,7 +42,7 @@ This repo contains
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
-| 1(Introduction to Data Structures and Algorithms)   | 12/16     |  Structures and Algorithms|
+| 1 (Introduction to Data Structures and Algorithms)   | 12/16     | |
 
 # Useful Reference
 
@@ -54,4 +56,3 @@ This repo contains
 
 [流暢的Python O'REILLY example code](https://github.com/fluentpython/example-code)
 
-[DSA 2020 from Hsuan-Tien Lin](https://www.youtube.com/watch?v=8IOv2fnc01E&list=PLXVfgk9fNX2Kda9rttSvGROCtRQ3Sb8bA&index=2)
