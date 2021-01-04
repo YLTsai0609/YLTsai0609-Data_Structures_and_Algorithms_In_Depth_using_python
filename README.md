@@ -27,7 +27,8 @@ This repo contains
 |7 - 3 (Linked List)|12/4|doubled linked list
 6 (Sorting)|12/21||
 9 (Queues and DEque)|12/28||
-10 (Binary Trees)|||
+10 (Binary Trees)|12/31|1. Tree terminology <br> 2. Types of binary trees|
+10 (Binary Trees)||Technique for traversing a binary tree|
 11 (Binary Search Trees)|||
 12 (Balanced Search Trees)|||
 13 (Priority Queues & Heaps)|||
@@ -55,4 +56,3 @@ This repo contains
 流暢的Python O'REILLY
 
 [流暢的Python O'REILLY example code](https://github.com/fluentpython/example-code)
-
