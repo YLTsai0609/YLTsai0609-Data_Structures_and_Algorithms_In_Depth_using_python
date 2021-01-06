@@ -47,7 +47,7 @@ $x_2 : (0.99, 1)$
 
 2. 每一個資料點做一次切分，並計算Acc，分析如下
 
-| cutoff | pred vesus ground truth | tp    | tn  | acc |     |     |
+| cutoff | pred <br> ground truth | tp    | tn  | acc |     |     |
 |--------|-------------------------|-------|-----|-----|-----|-----|
 | $1^{st}$ | 0 1 1 1 1 1 <br> 0 0 0 1 1 1      | 3 | 1  |   4/6  |     
 | $2^{nd}$ | 0 0 1 1 1 1 <br> 0 0 0 1 1 1      | 3 | 2  |   5/6  |     
@@ -62,9 +62,9 @@ Best cufoff : $3^{rd}$
 
 # 有哪些可能的情況與Edge case?
 
-考慮另一種模型預測, after sorting : 
+考慮另一種模型預測
 
-該模型預測能力較差，預測positive機率很低的也會是1($x_5$)
+該模型預測能力較差，預測positive機率很低，但ground-truth是 1 ($x_5$)
 
 $x_4 : (0.12, 0)$
 
@@ -78,7 +78,7 @@ $x_1 : (0.78, 1)$
 
 $x_2 : (0.99, 1)$
 
-| cutoff | pred vesus ground truth | tp    | tn  | acc |     |     |
+| cutoff | pred <br> ground truth | tp    | tn  | acc |     |     |
 |--------|-------------------------|-------|-----|-----|-----|-----|
 | $1^{st}$ | 0 1 1 1 1 1 <br> 0 1 0 0 1 1      | 3 | 1  |   4/6  |     
 | $2^{nd}$ | 0 0 1 1 1 1 <br> 0 1 0 0 1 1      | 2 | 1  |   3/6  |     
@@ -89,7 +89,7 @@ $x_2 : (0.99, 1)$
 
 同樣適用
 
-考慮第三種模型，容易被資料混淆，$x_{3}$
+考慮第三種模型，容易被資料混淆的情況，例如$x_{3}$
 
 $x_4 : (0.12, 0)$
 
@@ -119,11 +119,14 @@ Output : 1個tuple : 切分值 probability, best accuracy
 
 # 可能用到的資料結構&算法
 
-1. 排序算法(merge sort, count sort, review)，有時間複雜度 TODO
+1. 排序算法(bubble sort, merge sort, count sort, radix sort)，有時間複雜度
 2. (可優化)計算準確度，每計算一次要耗時$O(N)$，若要有k個切分點，則要花$O(kN)$
 3. 可以邊計算Moving Accuracy邊存下當前的最大值，空間複雜度$O(1)$
 
 # 時間複雜度, 空間複雜度分析
 
+綜合以上1, 2, 3項
+
 # Reference
+
 [Roc curve and cut off point. Python](https://stackoverflow.com/questions/28719067/roc-curve-and-cut-off-point-python)

@@ -29,7 +29,7 @@ As you could see, the value will sorted partially every iteration, like bubble c
 ``` Python
 Algorithm bubble_sort(A)
   n = length(A)
-  for pass = n-1, pass >=0 pass--
+  for pass = n-1, pass >=0
     for i = 0, i < pass, i++
       if A[i] > A[i+1] then
         temp = A[i]
