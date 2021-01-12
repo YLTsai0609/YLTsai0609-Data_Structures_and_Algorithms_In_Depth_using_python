@@ -1,6 +1,5 @@
 '''
 using adjance matrix representation
-kinda a base graph
 '''
 
 import numpy as np
@@ -65,14 +64,14 @@ G.display_adjMat()
 print('Vertices : ', G.vertex_count())
 print('Edges :', G.edge_count())
 # build the graph in the section 15 note
-G.insert_edge(0, 1)  # edge 0 - 1, weight = 1
-G.insert_edge(0, 2)  # edge 0 - 2, weight = 1
-G.insert_edge(1, 0)
-G.insert_edge(1, 2)
-G.insert_edge(2, 0)
-G.insert_edge(2, 1)
-G.insert_edge(2, 3)
-G.insert_edge(3, 2)
+G.insert_edge(0, 1, 26)  # edge 0 - 1, weight = 26
+G.insert_edge(0, 2, 16)  # edge 0 - 2, weight = 1
+G.insert_edge(1, 0, 26)
+G.insert_edge(1, 2, 12)
+G.insert_edge(2, 0, 16)
+G.insert_edge(2, 1, 12)
+G.insert_edge(2, 3, 8)
+G.insert_edge(3, 2, 8)
 G.display_adjMat()
 print('Vertices : ', G.vertex_count())
 print('Edges :', G.edge_count())
