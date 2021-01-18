@@ -1,5 +1,5 @@
 '''
-We use graph and linked-list queue to implement bfs
+we implement bfs and dfs
 '''
 
 import numpy as np
@@ -66,6 +66,7 @@ class Graph:
     def __init__(self, vertices):
         self._vertices = vertices
         self._adjMat = np.zeros((vertices, vertices))  # rows, cloumns
+        self._dfs_visited = [0] * self._vertices
 
     def insert_edge(self, u, v, weight=1):
         self._adjMat[u][v] = weight
@@ -130,6 +131,15 @@ class Graph:
                     visited[j] = 1
                     q.enqueue(j)
 
+    def DFS(self, s):
+        if self._dfs_visited[s] == 0:
+            # means the vetex is not vistied
+            print(s, end=' ')
+            self._dfs_visited[s] = 1
+            for j in range(self._vertices):
+                if self._adjMat[s][j] == 1 and self._dfs_visited[j] == 0:
+                    self.DFS(j)
+
 
 G = Graph(7)
 G.insert_edge(0, 1)
@@ -153,3 +163,4 @@ G.edges()
 print('BFS:')
 G.BFS(0)
 print('DFS:')
+G.DFS(0)
