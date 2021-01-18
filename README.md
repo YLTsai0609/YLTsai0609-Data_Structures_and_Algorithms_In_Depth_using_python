@@ -1,20 +1,20 @@
 # Data Structures and Algorithms: In-Depth using Python
 
-This repo contains 
+This repo contains :
 
 1. Yu Long's note about data structures and algorithm in-depth using python on Udemy.
 
 2. Python data structure revisited by sereval resources.
 
-3. Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU
+3. Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU.
+
+4. Some real-world chanllenges note and implementation.
 
 [Udemy Data Structures and Algorithms: In-Depth using Python](https://www.udemy.com/course/learning-data-structures-algorithms-in-python-from-scratch/learn/lecture/14520138#overview)
 
+[[Book]Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds3/index.html?fbclid=IwAR1Tl-_QijJadBJv-hytIEcAQskp02vBinhhLaYdg7zPMWqMEBN_6j185nI)
+
 [DSA 2020 from Hsuan-Tien Lin](https://www.youtube.com/watch?v=8IOv2fnc01E&list=PLXVfgk9fNX2Kda9rttSvGROCtRQ3Sb8bA&index=2)
-
-# Schedule
-
-## Udemy Data Structures and Algorithms: In-Depth using Python
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
@@ -34,10 +34,21 @@ This repo contains
 13 (Priority Queues & Heaps)|||
 14 (Hashing)|||
 15 (Graphs)|1/18||
-16 (Appendix)|||
+
+# Additional
+
+## Python Data Structure Revisited
+
+| Section | Compelete | Note  |
+|---------|-----------|-------|
 |A-1 python list revisited |1/6||
 |A-2 python hash-table |80%||
 |A-3 python array |80%||
+
+## Real-world Chanllenges
+
+| Section | Compelete | Note  |
+|---------|-----------|-------|
 |B-1 Ranking model post-processing algorithm|33%||
 |B-2 Best cutoff threshold for classification model|33%||
 
@@ -48,8 +59,6 @@ This repo contains
 | 1 (Introduction to Data Structures and Algorithms)   | 12/16     | |
 
 # Useful Reference
-
-[[Book]Problem Solving with Algorithms and Data Structures using Python](https://runestone.academy/runestone/books/published/pythonds3/index.html?fbclid=IwAR1Tl-_QijJadBJv-hytIEcAQskp02vBinhhLaYdg7zPMWqMEBN_6j185nI)
 
 [[Note] Yu Long's cs50 note](https://github.com/YLTsai0609/cs50)
 
