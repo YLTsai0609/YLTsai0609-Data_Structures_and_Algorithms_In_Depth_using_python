@@ -6,7 +6,7 @@ This repo contains :
 
 2. Python data structure revisited by sereval resources.
 
-3. Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU.
+3. Data Structure and Algorithm 2020 by **Hsuan**-Tien Lin in NTU.
 
 4. Some real-world chanllenges note and implementation.
 
@@ -32,7 +32,7 @@ This repo contains :
 11 (Binary Search Trees)|||
 12 (Balanced Search Trees)|||
 13 (Priority Queues & Heaps)|||
-14 (Hashing)|||
+14 (Hashing)|1/26||
 15 (Graphs)|1/18||
 
 # Additional
@@ -42,8 +42,8 @@ This repo contains :
 | Section | Compelete | Note  |
 |---------|-----------|-------|
 |A-1 python list revisited |1/6||
-|A-2 python hash-table |80%||
-|A-3 python array |80%||
+|A-2 python hash-table |1/10||
+|A-3 python array |1/11||
 
 ## Real-world Chanllenges
 
