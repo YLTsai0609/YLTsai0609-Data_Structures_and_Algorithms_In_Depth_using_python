@@ -7,12 +7,12 @@
 
 # Pivot
 
-* the elemenys to the left of povit are smaller than the pivot
-* the elemenys to the right of povit are larger than the pivot
+* the elements to the left of povit are smaller than the pivot
+* the elements to the right of povit are larger than the pivot
 
 <img src='../asserts/75_1.png'></img>
 
-element 92 could consider as a pivot(this definition will be useful when the problem is devided into small chunk)
+element 92 couldn't consider as a pivot(this definition will be useful when the problem is devided into small chunk)
 
 <img src='../asserts/75_2.png'></img>
 
