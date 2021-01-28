@@ -6,7 +6,7 @@ This repo contains :
 
 2. Python data structure revisited by sereval resources.
 
-3. Data Structure and Algorithm 2020 by **Hsuan**-Tien Lin in NTU.
+3. Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU.
 
 4. Some real-world chanllenges note and implementation.
 
