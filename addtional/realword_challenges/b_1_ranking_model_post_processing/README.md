@@ -4,7 +4,7 @@ approach 1 : binary-pick
 
 approach 2 : quick select
 
-# approach 1 : binary-pick
+# Approach I : binary-pick
 
 Input : posts : $\{p_1, p_2, ...p_N\}$ 
 
@@ -46,12 +46,93 @@ $O(N-1) + O(N-2) + ... + O(N-k)$ ~ $O(kN)$
 
 Which is not $O(klogN)$ - I cliamed
 
-# approach quick select
+# approach II quick select
 
 [快速選擇 維基百科](https://zh.m.wikipedia.org/zh-tw/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9)
 
 same author from quick sort, same idea, a kind of partial sort algoeithm.
 
-TODO
-
 check [this](https://www.itread01.com/content/1545039782.html)
+
+## psudo code
+
+quick_select(input_list, k):
+
+    1. pivot = random(input_list)
+    2. partition_point, smaller, greater = _partition(input_list, pivot)
+    3. if len(larger) == 5:
+
+            return larger
+    elif len(larger) < 5:
+            quick_select(smaller)
+    else:
+        quick_select(larger)
+
+_partition(input_list, pivot):
+
+    less, equal, greater = [], [], []
+    for element in input_list:
+        if element < pivot:
+            less.append(element)
+        elif element > pivot:
+            greater.append(element)
+        else:
+            equal.append(element)
+
+## complexity analysis
+
+### Average case :
+
+everytime, the greater and less ~ $\frac{N}{2}$
+
+Time spend $T(N)$ calculated by number of function calls
+
+$$
+T(N) = N + \frac{N}{2} + \frac{N}{4} + ... + + \frac{N}{2^{k-1}}
+$$
+
+how to calculate $T$ ?
+
+It's a geometric series.
+
+$$
+T(N) = N + \frac{N}{2} + \frac{N}{4} + ... +  \frac{N}{2^{k-1}} ~ ...(1)
+$$
+
+$$
+\frac{T(N)}{2} = \frac{N}{2} + \frac{N}{4} + ... + \frac{N}{2^{k-1}} + \frac{N}{2^{k}}~ ...(2)
+$$
+
+$$
+(1) - (2) : \frac{T(N)}{2} = N - \frac{N}{2^{k}}
+$$
+
+we get : 
+
+$T(N) = 2N - \frac{N}{2^{k}}$ ~ $2N$ where k = 5 or 10
+
+### Worst case
+
+worst case which is always get one more smaller:
+
+Total function calls :
+
+$$
+T(N) = N + N-1 + ... +  N-k-1 + .... ～ N^{2}
+$$
+
+### Best case 
+
+best case give us only one shot to get $k$ greater elements
+
+$$
+T = N
+$$
+
+### Summary
+
+| Case    | $T(N)$        |
+|---------|------------|
+| Worst   | $O(N^{2})$ |
+| Average | $\theta(2N)$    |
+| Best    | $\Omega(1)$     |
