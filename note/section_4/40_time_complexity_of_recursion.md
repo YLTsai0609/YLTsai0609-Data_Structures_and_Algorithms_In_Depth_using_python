@@ -22,8 +22,8 @@ $$
 
 apply subsitution method : 
 
-<img src='../asserts/40_1.png'></img>
-<img src='../asserts/40_2.png'></img>
+<img src='../assets/40_1.png'></img>
+<img src='../assets/40_2.png'></img>
 
 In this case, filnally, we have
 

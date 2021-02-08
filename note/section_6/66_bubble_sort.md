@@ -3,24 +3,24 @@
 1. If left element is greater than the right element, swap them.
 2. traverse the original array, you will get a maximum element at the last element.
 
-<img src='../asserts/68_1.png'></img>
-<img src='../asserts/68_2.png'></img>
-<img src='../asserts/68_3.png'></img>
-<img src='../asserts/68_4.png'></img>
-<img src='../asserts/68_5.png'></img>
-<img src='../asserts/68_6.png'></img>
-<img src='../asserts/68_7.png'></img>
-<img src='../asserts/68_8.png'></img>
-<img src='../asserts/68_9.png'></img>
+<img src='../assets/68_1.png'></img>
+<img src='../assets/68_2.png'></img>
+<img src='../assets/68_3.png'></img>
+<img src='../assets/68_4.png'></img>
+<img src='../assets/68_5.png'></img>
+<img src='../assets/68_6.png'></img>
+<img src='../assets/68_7.png'></img>
+<img src='../assets/68_8.png'></img>
+<img src='../assets/68_9.png'></img>
 
 # second round
 
-<img src='../asserts/68_10.png'></img>
-<img src='../asserts/68_11.png'></img>
-<img src='../asserts/68_12.png'></img>
-<img src='../asserts/68_13.png'></img>
-<img src='../asserts/68_14.png'></img>
-<img src='../asserts/68_15.png'></img>
+<img src='../assets/68_10.png'></img>
+<img src='../assets/68_11.png'></img>
+<img src='../assets/68_12.png'></img>
+<img src='../assets/68_13.png'></img>
+<img src='../assets/68_14.png'></img>
+<img src='../assets/68_15.png'></img>
 
 and third, forth, fifth...
 
@@ -39,8 +39,8 @@ Algorithm bubble_sort(A)
 
 # Stable or Unstable?
 
-<img src='../asserts/68_16.png'></img>
-<img src='../asserts/68_17.png'></img>
+<img src='../assets/68_16.png'></img>
+<img src='../assets/68_17.png'></img>
 
 stable!
 

@@ -30,4 +30,4 @@ int, float, bool, character, ...
 
 Employee
 
-<img src='../asserts/38_1.png'></img>
+<img src='../assets/38_1.png'></img>

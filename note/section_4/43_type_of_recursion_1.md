@@ -10,7 +10,7 @@
  -  recursion on the head
  -  expression second
 
-<img src='../asserts/43_1.png'></img>
+<img src='../assets/43_1.png'></img>
 
 1. tree recursion
 

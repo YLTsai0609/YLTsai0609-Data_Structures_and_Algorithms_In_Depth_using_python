@@ -2,7 +2,7 @@
 
 same as we use in single linked list
 
-<img src='../asserts/121_1.png'></img>
+<img src='../assets/121_1.png'></img>
 
 ``` Python
 Algorithm display()

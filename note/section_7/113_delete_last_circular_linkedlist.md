@@ -11,8 +11,8 @@
 7. size -= 1
 8. return e
 
-<img src='../asserts/113_1.png'></img>
-<img src='../asserts/113_2.png'></img>
+<img src='../assets/113_1.png'></img>
+<img src='../assets/113_2.png'></img>
 
 ``` Python
 Algorithm remove_last()

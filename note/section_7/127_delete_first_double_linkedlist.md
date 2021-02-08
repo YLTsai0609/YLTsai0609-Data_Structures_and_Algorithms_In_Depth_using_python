@@ -7,7 +7,7 @@
 5. size -= 1
 6. 如果list被殺光了，tail = Null
 
-<img src='../asserts/127_1.png'></img>
+<img src='../assets/127_1.png'></img>
 
 ``` Python
 Algorithm delete_first()

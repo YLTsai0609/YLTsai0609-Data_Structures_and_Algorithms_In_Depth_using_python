@@ -3,8 +3,8 @@
 1. collections of objects
 2. First-In First Out - different between Stack(Last in first out(LIFO))
 
-<img src='../asserts/138_1.png'></img>
-<img src='../asserts/138_2.png'></img>
+<img src='../assets/138_1.png'></img>
+<img src='../assets/138_2.png'></img>
 
 # glossary
 
@@ -18,20 +18,20 @@
 
 # Enqueue
 
-<img src='../asserts/138_3.png'></img>
-<img src='../asserts/138_4.png'></img>
-<img src='../asserts/138_5.png'></img>
+<img src='../assets/138_3.png'></img>
+<img src='../assets/138_4.png'></img>
+<img src='../assets/138_5.png'></img>
 
 # Dequeue
 
-<img src='../asserts/138_6.png'></img>
+<img src='../assets/138_6.png'></img>
 
 # Applications
 
-<img src='../asserts/138_7.png'></img>
-<img src='../asserts/138_8.png'></img>
-<img src='../asserts/138_9.png'></img>
-<img src='../asserts/138_10.png'></img>
+<img src='../assets/138_7.png'></img>
+<img src='../assets/138_8.png'></img>
+<img src='../assets/138_9.png'></img>
+<img src='../assets/138_10.png'></img>
 
 1. lines in shopping center.
 2. lines at atm.
@@ -42,7 +42,7 @@
 
 # Queue ADT
 
-<img src='../asserts/138_11.png'></img>
+<img src='../assets/138_11.png'></img>
 
 # Implementing
 

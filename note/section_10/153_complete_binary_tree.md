@@ -4,19 +4,19 @@ Binary tree where nodes at each level are numbered from left to right without an
 
 below, figure 1 is complete binary tree, figure 2 is not complete tree
 
-<img src='../asserts/153_1.png'></img>
+<img src='../assets/153_1.png'></img>
 
 below, figure 1 is complete binary tree, figure 2 is not complete tree
 
-<img src='../asserts/153_2.png'></img>
+<img src='../assets/153_2.png'></img>
 
 below, figure 1 is not a complete binary tree, figure 2 is not a compelete binary tree
 
-<img src='../asserts/153_3.png'></img>
+<img src='../assets/153_3.png'></img>
 
 below, figure 1 is a complete binary tree, figure 2 is not a complete binary tree
 
-<img src='../asserts/153_4.png'></img>
+<img src='../assets/153_4.png'></img>
 
 # Mathematical definition
 
@@ -31,4 +31,4 @@ Consider a tree with height $h$,
 1. The subtree with hieght $h-1$ should be a full binary tree
 2. The leaves at height $h$ from left to right must not have any gap.
 
-<img src='../asserts/153_5.png'></img>
+<img src='../assets/153_5.png'></img>

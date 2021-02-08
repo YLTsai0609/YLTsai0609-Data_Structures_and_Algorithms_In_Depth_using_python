@@ -7,9 +7,9 @@
    1. newest.next = p.next
    2. p.next = newest
 
-<img src='../asserts/109_2.png'></img>
-<img src='../asserts/109_1.png'></img>
-<img src='../asserts/109_3.png'></img>
+<img src='../assets/109_2.png'></img>
+<img src='../assets/109_1.png'></img>
+<img src='../assets/109_3.png'></img>
 
 ``` Python
 Algorithm add_any(e, position)

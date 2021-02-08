@@ -3,8 +3,8 @@
 1. collections of objects
 2. Last in first out(LIFO)
 
-<img src='../asserts/129_1.png'></img>
-<img src='../asserts/129_2.png'></img>
+<img src='../assets/129_1.png'></img>
+<img src='../assets/129_2.png'></img>
 
 # glossary
 
@@ -26,7 +26,7 @@
 
 # Stack ADT
 
-<img src='../asserts/129_3.png'></img>
+<img src='../assets/129_3.png'></img>
 
 # Implementing
 

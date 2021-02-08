@@ -2,7 +2,7 @@
 
 Graph is a non-linear data structure. So we can't apply linear traverse technique to graph.
 
-<img src='../asserts/250_1.png'></img>
+<img src='../assets/250_1.png'></img>
 
 # Graph Traversals for Graph
 

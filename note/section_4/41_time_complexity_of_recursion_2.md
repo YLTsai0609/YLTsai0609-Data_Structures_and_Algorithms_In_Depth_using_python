@@ -7,7 +7,7 @@ $$
 
 unrolling that : 
 
-<img src='../asserts/41_1.png'></img>
+<img src='../assets/41_1.png'></img>
 
 $$
 T(n) = 1 + ... + n = \frac{n(n+1)}{2}～O(N^{2})

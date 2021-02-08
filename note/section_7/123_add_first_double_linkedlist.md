@@ -1,8 +1,8 @@
 # add first in double linked list
 
-<img src='../asserts/123_1.png'></img>
-<img src='../asserts/123_2.png'></img>
-<img src='../asserts/123_3.png'></img>
+<img src='../assets/123_1.png'></img>
+<img src='../assets/123_2.png'></img>
+<img src='../assets/123_3.png'></img>
 
 ``` Python
 Algorithm add_first(e)

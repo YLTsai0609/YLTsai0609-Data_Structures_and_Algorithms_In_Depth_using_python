@@ -5,45 +5,45 @@
 3. combine or merge the result into a solution
 4. Divde and Conquer Approach
 
-<img src='../asserts/70_1.png'></img>
-<img src='../asserts/70_2.png'></img>
-<img src='../asserts/70_3.png'></img>
-<img src='../asserts/70_4.png'></img>
-<img src='../asserts/70_5.png'></img>
-<img src='../asserts/70_6.png'></img>
-<img src='../asserts/70_7.png'></img>
-<img src='../asserts/70_8.png'></img>
-<img src='../asserts/70_9.png'></img>
-<img src='../asserts/70_10.png'></img>
-<img src='../asserts/70_11.png'></img>
-<img src='../asserts/70_12.png'></img>
-<img src='../asserts/70_13.png'></img>
-<img src='../asserts/70_14.png'></img>
-<img src='../asserts/70_15.png'></img>
-<img src='../asserts/70_16.png'></img>
-<img src='../asserts/70_17.png'></img>
-<img src='../asserts/70_18.png'></img>
-<img src='../asserts/70_19.png'></img>
-<img src='../asserts/70_20.png'></img>
-<img src='../asserts/70_21.png'></img>
-<img src='../asserts/70_22.png'></img>
-<img src='../asserts/70_23.png'></img>
+<img src='../assets/70_1.png'></img>
+<img src='../assets/70_2.png'></img>
+<img src='../assets/70_3.png'></img>
+<img src='../assets/70_4.png'></img>
+<img src='../assets/70_5.png'></img>
+<img src='../assets/70_6.png'></img>
+<img src='../assets/70_7.png'></img>
+<img src='../assets/70_8.png'></img>
+<img src='../assets/70_9.png'></img>
+<img src='../assets/70_10.png'></img>
+<img src='../assets/70_11.png'></img>
+<img src='../assets/70_12.png'></img>
+<img src='../assets/70_13.png'></img>
+<img src='../assets/70_14.png'></img>
+<img src='../assets/70_15.png'></img>
+<img src='../assets/70_16.png'></img>
+<img src='../assets/70_17.png'></img>
+<img src='../assets/70_18.png'></img>
+<img src='../assets/70_19.png'></img>
+<img src='../assets/70_20.png'></img>
+<img src='../assets/70_21.png'></img>
+<img src='../assets/70_22.png'></img>
+<img src='../assets/70_23.png'></img>
 
 ## Tree view
 
-<img src='../asserts/70_24.png'></img>
-<img src='../asserts/70_25.png'></img>
-<img src='../asserts/70_26.png'></img>
-<img src='../asserts/70_27.png'></img>
-<img src='../asserts/70_28.png'></img>
-<img src='../asserts/70_29.png'></img>
-<img src='../asserts/70_30.png'></img>
+<img src='../assets/70_24.png'></img>
+<img src='../assets/70_25.png'></img>
+<img src='../assets/70_26.png'></img>
+<img src='../assets/70_27.png'></img>
+<img src='../assets/70_28.png'></img>
+<img src='../assets/70_29.png'></img>
+<img src='../assets/70_30.png'></img>
 
 ## Algorithm and Tree View
 
-<img src='../asserts/70_31.png'></img>
-<img src='../asserts/70_32.png'></img>
-<img src='../asserts/70_33.png'></img>
+<img src='../assets/70_31.png'></img>
+<img src='../assets/70_32.png'></img>
+<img src='../assets/70_33.png'></img>
 
 ``` Python
 Algorithm merge_sort(A, left, right)
@@ -58,10 +58,10 @@ Algorithm merge_sort(A, left, right)
 
 ## merging and tree view
 
-<img src='../asserts/70_34.png'></img>
-<img src='../asserts/70_35.png'></img>
-<img src='../asserts/70_36.png'></img>
-<img src='../asserts/70_37.png'></img>
+<img src='../assets/70_34.png'></img>
+<img src='../assets/70_35.png'></img>
+<img src='../assets/70_36.png'></img>
+<img src='../assets/70_37.png'></img>
 
 merging algorithm need to combine left and right by sorting them.
 we use **B** for conbined array
@@ -113,7 +113,7 @@ Algorithm merge(A, left, mid ,right)
 
 ## Merge function
 
-<img src='../asserts/70_38.png'></img>
+<img src='../assets/70_38.png'></img>
 
 we need to compare $n_1, n_2$ which is perportion to $n$, a temp array $B$
 
@@ -122,7 +122,7 @@ Space Complexity :  $O(N)$
 
 ## Merge_sort function
 
-<img src='../asserts/70_39.png'></img>
+<img src='../assets/70_39.png'></img>
 
 A tree view, 
 

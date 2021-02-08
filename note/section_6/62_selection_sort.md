@@ -2,15 +2,15 @@
 
 * easiest way to sort an array.
 
-<img src='../asserts/62_1.png'></img>
-<img src='../asserts/62_2.png'></img>
-<img src='../asserts/62_3.png'></img>
-<img src='../asserts/62_4.png'></img>
-<img src='../asserts/62_5.png'></img>
-<img src='../asserts/62_6.png'></img>
-<img src='../asserts/62_7.png'></img>
-<img src='../asserts/62_8.png'></img>
-<img src='../asserts/62_9.png'></img>
+<img src='../assets/62_1.png'></img>
+<img src='../assets/62_2.png'></img>
+<img src='../assets/62_3.png'></img>
+<img src='../assets/62_4.png'></img>
+<img src='../assets/62_5.png'></img>
+<img src='../assets/62_6.png'></img>
+<img src='../assets/62_7.png'></img>
+<img src='../assets/62_8.png'></img>
+<img src='../assets/62_9.png'></img>
 
 ``` Python
 Algorithm selectionsort(A)
@@ -27,7 +27,7 @@ Algorithm selectionsort(A)
 
 # Stable or Unstable?
 
-<img src='../asserts/62_10.png'></img>
+<img src='../assets/62_10.png'></img>
 
 When i = 1, the element 5 is moved to the last means we lost the positional information when doing sorting.
 

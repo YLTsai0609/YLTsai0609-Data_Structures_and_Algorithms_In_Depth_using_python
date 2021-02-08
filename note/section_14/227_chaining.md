@@ -1,7 +1,7 @@
 # Chaining
 
-<img src='../asserts/227_1.png'></img>
-<img src='../asserts/227_2.png'></img>
+<img src='../assets/227_1.png'></img>
+<img src='../assets/227_2.png'></img>
 
 Basically a list contains list in each element in Python.
 

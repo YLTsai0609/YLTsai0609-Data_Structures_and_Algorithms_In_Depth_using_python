@@ -10,20 +10,20 @@ This technique will not compare elements but an index based sorting technique.
 
 1. Fill element into **count array**(traverse original array)
 
-<img src='../asserts/79_1.png'></img>
-<img src='../asserts/79_2.png'></img>
-<img src='../asserts/79_3.png'></img>
-<img src='../asserts/79_4.png'></img>
-<img src='../asserts/79_5.png'></img>
-<img src='../asserts/79_6.png'></img>
-<img src='../asserts/79_7.png'></img>
+<img src='../assets/79_1.png'></img>
+<img src='../assets/79_2.png'></img>
+<img src='../assets/79_3.png'></img>
+<img src='../assets/79_4.png'></img>
+<img src='../assets/79_5.png'></img>
+<img src='../assets/79_6.png'></img>
+<img src='../assets/79_7.png'></img>
 
 2. Use index to create value(traverse the count array)
 
-<img src='../asserts/79_8.png'></img>
-<img src='../asserts/79_9.png'></img>
-<img src='../asserts/79_10.png'></img>
-<img src='../asserts/79_11.png'></img>
+<img src='../assets/79_8.png'></img>
+<img src='../assets/79_9.png'></img>
+<img src='../assets/79_10.png'></img>
+<img src='../assets/79_11.png'></img>
 
 * simple and fast, but a large amount of memory is required.
 

@@ -5,7 +5,7 @@
 
 圖示法把head, tail, p (current node), p._next, newest都標出來，會更容易寫算法
 
-<img src='../asserts/95_1.png'></img>
+<img src='../assets/95_1.png'></img>
 
 ``` Python
 Algorithm addany(e, position)

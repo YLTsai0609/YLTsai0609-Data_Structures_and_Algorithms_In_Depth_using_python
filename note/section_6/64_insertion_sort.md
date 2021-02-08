@@ -2,25 +2,25 @@
 
 * select, insert, done =)
 
-<img src='../asserts/64_1.png'></img>
-<img src='../asserts/64_2.png'></img>
-<img src='../asserts/64_3.png'></img>
-<img src='../asserts/64_4.png'></img>
-<img src='../asserts/64_5.png'></img>
-<img src='../asserts/64_6.png'></img>
-<img src='../asserts/64_7.png'></img>
-<img src='../asserts/64_8.png'></img>
-<img src='../asserts/64_9.png'></img>
-<img src='../asserts/64_10.png'></img>
-<img src='../asserts/64_11.png'></img>
-<img src='../asserts/64_12.png'></img>
-<img src='../asserts/64_13.png'></img>
-<img src='../asserts/64_14.png'></img>
-<img src='../asserts/64_15.png'></img>
-<img src='../asserts/64_16.png'></img>
-<img src='../asserts/64_17.png'></img>
-<img src='../asserts/64_18.png'></img>
-<img src='../asserts/64_19.png'></img>
+<img src='../assets/64_1.png'></img>
+<img src='../assets/64_2.png'></img>
+<img src='../assets/64_3.png'></img>
+<img src='../assets/64_4.png'></img>
+<img src='../assets/64_5.png'></img>
+<img src='../assets/64_6.png'></img>
+<img src='../assets/64_7.png'></img>
+<img src='../assets/64_8.png'></img>
+<img src='../assets/64_9.png'></img>
+<img src='../assets/64_10.png'></img>
+<img src='../assets/64_11.png'></img>
+<img src='../assets/64_12.png'></img>
+<img src='../assets/64_13.png'></img>
+<img src='../assets/64_14.png'></img>
+<img src='../assets/64_15.png'></img>
+<img src='../assets/64_16.png'></img>
+<img src='../assets/64_17.png'></img>
+<img src='../assets/64_18.png'></img>
+<img src='../assets/64_19.png'></img>
 
 ``` Python
 Algorithm insertion_sort(A)
@@ -38,7 +38,7 @@ Algorithm insertion_sort(A)
 
 # Stable or Unstable?
 
-<img src='../asserts/64_20.png'></img>
+<img src='../assets/64_20.png'></img>
 
 the same element will be stuck when compare with
 

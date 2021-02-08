@@ -129,14 +129,14 @@ class MySet:
 def test_HashTable_exist_nothing():
     h = HashTable()
     e_exist, _ = h.exist(1)
-    assert e_exist == False
+    asset e_exist == False
 
 
 def test_HashTable_add_exist():
     h = HashTable()
     h.add(1)
     e_exist, _ = h.exist(1)
-    assert e_exist == True
+    asset e_exist == True
 
 
 def test_HashTable_add_delete():
@@ -144,28 +144,28 @@ def test_HashTable_add_delete():
     h.add(1)
     h.delete(1)
     e_exist, _ = h.exist(1)
-    assert e_exist == False
+    asset e_exist == False
 
 
 def test_MySet_hash_table_add_read():
     s = MySet()
     s.add(1)
-    assert s.read(1) == True
+    asset s.read(1) == True
 
 
 def test_MySet_hash_table_add_duplicated():
     s = MySet()
     s.add(1)
     s.add(1)
-    assert s.read(1) == True
-    assert len(s) == 1
+    asset s.read(1) == True
+    asset len(s) == 1
 
 
 def test_MySet_hash_table_add_delete():
     s = MySet()
     s.add('dcard')
     s.delete('dcard')
-    assert len(s) == 0
+    asset len(s) == 0
 
 
 if __name__ == "__main__":

@@ -15,8 +15,8 @@
 
 4. return e
 
-<img src='../asserts/111_1.png'></img>
-<img src='../asserts/111_2.png'></img>
+<img src='../assets/111_1.png'></img>
+<img src='../assets/111_2.png'></img>
 
 ``` Python
 Algorithm remove_first()

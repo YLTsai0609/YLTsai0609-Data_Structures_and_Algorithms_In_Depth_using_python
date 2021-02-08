@@ -75,22 +75,22 @@ class MySet:
 def test_MySet_hash_table_add_read():
     s = MySet()
     s.add(1)
-    assert s.read(1) == 0
+    asset s.read(1) == 0
 
 
 def test_MySet_hash_table_add_duplicated():
     s = MySet()
     s.add(1)
     s.add(1)
-    assert s.read(1) == 0
-    assert len(s) == 1
+    asset s.read(1) == 0
+    asset len(s) == 1
 
 
 def test_MySet_hash_table_add_delete():
     s = MySet()
     s.add('dcard')
     s.delete('dcard')
-    assert len(s) == 0
+    asset len(s) == 0
 
 
 if __name__ == "__main__":

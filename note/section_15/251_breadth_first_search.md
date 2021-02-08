@@ -8,8 +8,8 @@
 
 # Example
 
-<img src='../asserts/251_1.png'></img>
-<img src='../asserts/251_2.png'></img>
+<img src='../assets/251_1.png'></img>
+<img src='../assets/251_2.png'></img>
 
 BFS 
 
@@ -25,39 +25,39 @@ The explore path may be different by different start vertex.
 
 0, 1, 5, 6 (level 1) -> 0, 1, 6, 5
 
-<img src='../asserts/251_3.png'></img>
+<img src='../assets/251_3.png'></img>
 
 ## Algorithm Example
 
 visited 0 at level 0
 
-<img src='../asserts/251_4.png'></img>
+<img src='../assets/251_4.png'></img>
 
 enqueue 0 into the queue(level 0)
 
-<img src='../asserts/251_5.png'></img>
+<img src='../assets/251_5.png'></img>
 
 deque level 0
 
-<img src='../asserts/251_6.png'></img>
+<img src='../assets/251_6.png'></img>
 
 out path of 0 - enqueue 1 into Queue(level 1)
 
-<img src='../asserts/251_7.png'></img>
+<img src='../assets/251_7.png'></img>
 
 Start to explore the out path of 0
 
 out path of 0 - enqueue 5 into the queue(level 1)
 
-<img src='../asserts/251_8.png'></img>
+<img src='../assets/251_8.png'></img>
 
 out path of 0 - enqueue 6 into the queue(level 1)
 
-<img src='../asserts/251_9.png'></img>
+<img src='../assets/251_9.png'></img>
 
 deque 1 at level 1
 
-<img src='../asserts/251_10.png'></img>
+<img src='../assets/251_10.png'></img>
 
 Start to explore the out path of 1
 
@@ -65,7 +65,7 @@ Start to explore the out path of 1
 
 out path of 1 - enqueue 2 into the queue(level 2)
 
-<img src='../asserts/251_11.png'></img>
+<img src='../assets/251_11.png'></img>
 
 deque 5 at level 1
 
@@ -75,29 +75,29 @@ Start to explore the out path of 5
 
 out path of 5 - enqueue 3 into the queue(level 1)
 
-<img src='../asserts/251_12.png'></img>
+<img src='../assets/251_12.png'></img>
 
 deque 6 at level 1
 
-<img src='../asserts/251_13.png'></img>
+<img src='../assets/251_13.png'></img>
 
 Start to explore the out path of 6
 
-<img src='../asserts/251_14.png'></img>
+<img src='../assets/251_14.png'></img>
 
 No any witness exist for 6
 
-<img src='../asserts/251_15.png'></img>
+<img src='../assets/251_15.png'></img>
 
 deque 2 at level 2
 
 Start to explore the out path of 2
 
-<img src='../asserts/251_17.png'></img>
+<img src='../assets/251_17.png'></img>
 
 enque 4 into the queue.
 
-<img src='../asserts/251_18.png'></img>
+<img src='../assets/251_18.png'></img>
 
 No witness exist for 2
 
@@ -105,13 +105,13 @@ deque 3
 
 Start to explore the out path of 3
 
-<img src='../asserts/251_19.png'></img>
+<img src='../assets/251_19.png'></img>
 
 deque 4 
 
 Start to explore the out path of 4
 
-<img src='../asserts/251_20.png'></img>
+<img src='../assets/251_20.png'></img>
 
 ## Algorithm
 

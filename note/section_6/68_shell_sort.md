@@ -2,7 +2,7 @@
 
 simliar to selection sort.
 
-<img src='../asserts/66_1.png'></img>
+<img src='../assets/66_1.png'></img>
 
 1. fill the gap, gap = $\frac{n}{2} = 3$ 
 2. compare the right, if bigger, perform swapping
@@ -14,28 +14,28 @@ simliar to selection sort.
 1. get first gap and traverse.
 
   
-<img src='../asserts/66_2.png'></img>
-<img src='../asserts/66_3.png'></img>
-<img src='../asserts/66_4.png'></img>
-<img src='../asserts/66_5.png'></img>
-<img src='../asserts/66_6.png'></img>
-<img src='../asserts/66_7.png'></img>
-<img src='../asserts/66_8.png'></img>
+<img src='../assets/66_2.png'></img>
+<img src='../assets/66_3.png'></img>
+<img src='../assets/66_4.png'></img>
+<img src='../assets/66_5.png'></img>
+<img src='../assets/66_6.png'></img>
+<img src='../assets/66_7.png'></img>
+<img src='../assets/66_8.png'></img>
 
 2. second gap
 
 gap /= 2 = 3/2 -> we pick 1
 
-<img src='../asserts/66_9.png'></img>
-<img src='../asserts/66_10.png'></img>
-<img src='../asserts/66_11.png'></img>
-<img src='../asserts/66_12.png'></img>
-<img src='../asserts/66_13.png'></img>
-<img src='../asserts/66_14.png'></img>
-<img src='../asserts/66_15.png'></img>
-<img src='../asserts/66_16.png'></img>
-<img src='../asserts/66_17.png'></img>
-<img src='../asserts/66_18.png'></img>
+<img src='../assets/66_9.png'></img>
+<img src='../assets/66_10.png'></img>
+<img src='../assets/66_11.png'></img>
+<img src='../assets/66_12.png'></img>
+<img src='../assets/66_13.png'></img>
+<img src='../assets/66_14.png'></img>
+<img src='../assets/66_15.png'></img>
+<img src='../assets/66_16.png'></img>
+<img src='../assets/66_17.png'></img>
+<img src='../assets/66_18.png'></img>
 
 3. gap = 0, done.
 

@@ -14,6 +14,6 @@ And everytime we create a Node object, python will keep create dict to feed into
 
 To reduce useless operation in certain condition, python provides **__slot__** to efficiently allocate memory without creating dict
 
-<img src='../asserts/118_1.png'></img>
-<img src='../asserts/118_2.png'></img>
-<img src='../asserts/118_3.png'></img>
+<img src='../assets/118_1.png'></img>
+<img src='../assets/118_2.png'></img>
+<img src='../assets/118_3.png'></img>

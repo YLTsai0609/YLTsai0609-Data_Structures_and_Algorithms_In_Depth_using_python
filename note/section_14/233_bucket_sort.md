@@ -10,7 +10,7 @@ Use the concept of hashing.
 
 ## Example
 
-<img src='../asserts/233_1.png'></img>
+<img src='../assets/233_1.png'></img>
 
 floor( index = n * e / (max + 1) )
 
@@ -20,21 +20,21 @@ max = 92
 
 ### inserting
 
-<img src='../asserts/233_2.png'></img>
-<img src='../asserts/233_3.png'></img>
-<img src='../asserts/233_4.png'></img>
-<img src='../asserts/233_5.png'></img>
-<img src='../asserts/233_6.png'></img>
-<img src='../asserts/233_7.png'></img>
-<img src='../asserts/233_8.png'></img>
+<img src='../assets/233_2.png'></img>
+<img src='../assets/233_3.png'></img>
+<img src='../assets/233_4.png'></img>
+<img src='../assets/233_5.png'></img>
+<img src='../assets/233_6.png'></img>
+<img src='../assets/233_7.png'></img>
+<img src='../assets/233_8.png'></img>
 
 ### insertion sort in each bucket
 
-<img src='../asserts/233_9.png'></img>
+<img src='../assets/233_9.png'></img>
 
 ### retreve element
 
-<img src='../asserts/233_10.png'></img>
+<img src='../assets/233_10.png'></img>
 
 # Algorithm
 
@@ -62,9 +62,9 @@ Algorithm bucketsort(A)
 
 Space Complexity : $O(n k)$ 
 
-<img src='../asserts/233_12.png'></img>
+<img src='../assets/233_12.png'></img>
 
-<img src='../asserts/233_13.png'></img>
+<img src='../assets/233_13.png'></img>
 
 # Reference
 

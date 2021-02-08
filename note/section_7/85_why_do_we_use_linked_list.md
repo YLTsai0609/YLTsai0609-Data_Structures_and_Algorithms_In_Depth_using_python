@@ -1,7 +1,7 @@
 # What is an Array
 
 Block of sequenrial memory
-<img src='../asserts/85_1.png'></img>
+<img src='../assets/85_1.png'></img>
 
 # Sequence in Python
 
@@ -19,9 +19,9 @@ str (immutable)
 
 adress map to memory
 
-<img src='../asserts/85_4.png'></img>
+<img src='../assets/85_4.png'></img>
 
-<img src='../asserts/85_2.png'></img>
+<img src='../assets/85_2.png'></img>
 
 array is fixed size chunk of memory
 
@@ -41,9 +41,9 @@ Node contains :
 
 2. link
 
-<img src='../asserts/85_6.png'></img>
+<img src='../assets/85_6.png'></img>
 
-<img src='../asserts/85_3.png'></img>
+<img src='../assets/85_3.png'></img>
 
 Why we use linked-list as a data structure?
 
@@ -53,4 +53,4 @@ Why we use linked-list as a data structure?
 
 2. linked list use the computer memory more effient than array.
 
-<img src='../asserts/85_5.png'></img>
+<img src='../assets/85_5.png'></img>

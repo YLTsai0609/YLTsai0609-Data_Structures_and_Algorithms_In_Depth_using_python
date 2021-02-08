@@ -7,8 +7,8 @@
 
 # Class Introduction
 
-<img src='./asserts/NtuDsa1_4.png'></img>
-<img src='./asserts/NtuDsa1_5.png'></img>
+<img src='./assets/NtuDsa1_4.png'></img>
+<img src='./assets/NtuDsa1_5.png'></img>
 
 * DSA Introduce data structure and algorithm
 * Algorithm Design and Analysis focus on design and analysis algorithm and math.
@@ -24,7 +24,7 @@
 
 # Five Criteria of Algorithm
 
-<img src='./asserts/NtuDsa1_1.png'></img>
+<img src='./assets/NtuDsa1_1.png'></img>
 
 1. input(人給的)
 2. output(是否正確)
@@ -39,11 +39,11 @@
 
    * Actually, Mathematical Induction plays a recursion proof in math! 
 
-<img src='./asserts/NtuDsa1_2.png'></img>
+<img src='./assets/NtuDsa1_2.png'></img>
 
 # Efficiency of Algorithm
 
-<img src='./asserts/NtuDsa1_3.png'></img>
+<img src='./assets/NtuDsa1_3.png'></img>
 
 Tree is a highly parallelable structure, we can run it very fast if we want =)
 

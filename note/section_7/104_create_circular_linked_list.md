@@ -11,8 +11,8 @@
    * tail.next = newest (add new node)
    * tail = newest (move tail to newest)
 
-<img src='../asserts/104_1.png'></img>
-<img src='../asserts/104_2.png'></img>
+<img src='../assets/104_1.png'></img>
+<img src='../assets/104_2.png'></img>
 
 ``` Python
 Algorithm addlast(e)

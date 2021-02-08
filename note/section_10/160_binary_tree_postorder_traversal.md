@@ -6,16 +6,16 @@
 
 # Example 1
 
-<img src='../asserts/160_1.png'></img>
+<img src='../assets/160_1.png'></img>
 
 # Example 2
 
-<img src='../asserts/160_2.png'></img>
+<img src='../assets/160_2.png'></img>
 
 # Example 3
 
-<img src='../asserts/160_3.png'></img>
+<img src='../assets/160_3.png'></img>
 
 # Example 4
 
-<img src='../asserts/160_4.png'></img>
+<img src='../assets/160_4.png'></img>

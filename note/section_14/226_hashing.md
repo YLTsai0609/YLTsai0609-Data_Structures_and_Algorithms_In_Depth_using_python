@@ -1,12 +1,12 @@
 # Hashing
 
-<img src='../asserts/226_1.png'></img>
+<img src='../assets/226_1.png'></img>
 
 $O(h)$ means height
 
 # Ideal Hashing
 
-<img src='../asserts/226_2.png'></img>
+<img src='../assets/226_2.png'></img>
 
 When performing search, we just take out the index. No need to loop over the whole list
 
@@ -28,12 +28,12 @@ $h(x) = x~\%~10$
 
 Space complexity : $O(1)$
 
-<img src='../asserts/226_3.png'></img>
+<img src='../assets/226_3.png'></img>
 
 # Collision
 
-<img src='../asserts/226_4.png'></img>
+<img src='../assets/226_4.png'></img>
 
-<img src='../asserts/226_5.png'></img>
+<img src='../assets/226_5.png'></img>
 
 There are some ways to dealing with collision.

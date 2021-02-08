@@ -10,25 +10,25 @@
 * the elements to the left of povit are smaller than the pivot
 * the elements to the right of povit are larger than the pivot
 
-<img src='../asserts/75_1.png'></img>
+<img src='../assets/75_1.png'></img>
 
 element 92 couldn't consider as a pivot(this definition will be useful when the problem is devided into small chunk)
 
-<img src='../asserts/75_2.png'></img>
+<img src='../assets/75_2.png'></img>
 
 element 54 could consider as a pivot(this definition will be useful when the problem is devided into small chunk)
 
-<img src='../asserts/75_3.png'></img>
+<img src='../assets/75_3.png'></img>
 
 element 63 couldn't consider as a pivot
 
-<img src='../asserts/75_4.png'></img>
+<img src='../assets/75_4.png'></img>
 
 92 and 15 is the edge of the array, they are both pivots and **sorted positions**
 
 ## Partition
 
-<img src='../asserts/75_5.png'></img>
+<img src='../assets/75_5.png'></img>
 
 the left part(smaller) -> one part
 the right part(larger) -> the other part
@@ -45,9 +45,9 @@ This definition is called **partition**
 the process 1, 2 as known as **partitioning**
 quick sort only work when we have more than one element
 
-<img src='../asserts/75_6.png'></img>
-<img src='../asserts/75_7.png'></img>
-<img src='../asserts/75_8.png'></img>
+<img src='../assets/75_6.png'></img>
+<img src='../assets/75_7.png'></img>
+<img src='../assets/75_8.png'></img>
 
 ## An Example
 
@@ -72,45 +72,45 @@ visulization about left part
 note the stop condition allow the same value
 and the swapped position might be the center of the array
 
-<img src='../asserts/75_9.png'></img>
-<img src='../asserts/75_10.png'></img>
-<img src='../asserts/75_11.png'></img>
-<img src='../asserts/75_12.png'></img>
-<img src='../asserts/75_13.png'></img>
-<img src='../asserts/75_14.png'></img>
-<img src='../asserts/75_15.png'></img>
-<img src='../asserts/75_16.png'></img>
-<img src='../asserts/75_17.png'></img>
-<img src='../asserts/75_18.png'></img>
-<img src='../asserts/75_19.png'></img>
-<img src='../asserts/75_20.png'></img>
-<img src='../asserts/75_21.png'></img>
-<img src='../asserts/75_22.png'></img>
-<img src='../asserts/75_23.png'></img>
-<img src='../asserts/75_24.png'></img>
-<img src='../asserts/75_25.png'></img>
-<img src='../asserts/75_26.png'></img>
-<img src='../asserts/75_27.png'></img>
-<img src='../asserts/75_28.png'></img>
-<img src='../asserts/75_29.png'></img>
+<img src='../assets/75_9.png'></img>
+<img src='../assets/75_10.png'></img>
+<img src='../assets/75_11.png'></img>
+<img src='../assets/75_12.png'></img>
+<img src='../assets/75_13.png'></img>
+<img src='../assets/75_14.png'></img>
+<img src='../assets/75_15.png'></img>
+<img src='../assets/75_16.png'></img>
+<img src='../assets/75_17.png'></img>
+<img src='../assets/75_18.png'></img>
+<img src='../assets/75_19.png'></img>
+<img src='../assets/75_20.png'></img>
+<img src='../assets/75_21.png'></img>
+<img src='../assets/75_22.png'></img>
+<img src='../assets/75_23.png'></img>
+<img src='../assets/75_24.png'></img>
+<img src='../assets/75_25.png'></img>
+<img src='../assets/75_26.png'></img>
+<img src='../assets/75_27.png'></img>
+<img src='../assets/75_28.png'></img>
+<img src='../assets/75_29.png'></img>
 
-<img src='../asserts/75_30.png'></img>
-<img src='../asserts/75_31.png'></img>
-<img src='../asserts/75_32.png'></img>
-<img src='../asserts/75_33.png'></img>
-<img src='../asserts/75_34.png'></img>
-<img src='../asserts/75_35.png'></img>
-<img src='../asserts/75_36.png'></img>
-<img src='../asserts/75_37.png'></img>
-<img src='../asserts/75_38.png'></img>
-<img src='../asserts/75_39.png'></img>
-<img src='../asserts/75_40.png'></img>
-<img src='../asserts/75_41.png'></img>
-<img src='../asserts/75_42.png'></img>
-<img src='../asserts/75_43.png'></img>
-<img src='../asserts/75_44.png'></img>
-<img src='../asserts/75_45.png'></img>
-<img src='../asserts/75_46.png'></img>
-<img src='../asserts/75_47.png'></img>
-<img src='../asserts/75_48.png'></img>
-<img src='../asserts/75_49.png'></img>
+<img src='../assets/75_30.png'></img>
+<img src='../assets/75_31.png'></img>
+<img src='../assets/75_32.png'></img>
+<img src='../assets/75_33.png'></img>
+<img src='../assets/75_34.png'></img>
+<img src='../assets/75_35.png'></img>
+<img src='../assets/75_36.png'></img>
+<img src='../assets/75_37.png'></img>
+<img src='../assets/75_38.png'></img>
+<img src='../assets/75_39.png'></img>
+<img src='../assets/75_40.png'></img>
+<img src='../assets/75_41.png'></img>
+<img src='../assets/75_42.png'></img>
+<img src='../assets/75_43.png'></img>
+<img src='../assets/75_44.png'></img>
+<img src='../assets/75_45.png'></img>
+<img src='../assets/75_46.png'></img>
+<img src='../assets/75_47.png'></img>
+<img src='../assets/75_48.png'></img>
+<img src='../assets/75_49.png'></img>

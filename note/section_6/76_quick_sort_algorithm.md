@@ -8,8 +8,8 @@ Algorithm quick_sort(A, low, high)
     quick_sort(A, pi - 1, high)
 ```
 
-<img src='../asserts/76_1.png'></img>
-<img src='../asserts/76_2.png'></img>
+<img src='../assets/76_1.png'></img>
+<img src='../assets/76_2.png'></img>
 
  
 
@@ -34,9 +34,9 @@ Algorithm partition(A, low, high)
 
 ## On average
 
-<img src='../asserts/76_3.png'></img>
-<img src='../asserts/76_4.png'></img>
-<img src='../asserts/76_5.png'></img>
+<img src='../assets/76_3.png'></img>
+<img src='../assets/76_4.png'></img>
+<img src='../assets/76_5.png'></img>
 
 Partition at levels : $log_{2}n$
 
@@ -48,8 +48,8 @@ total time complexity : $n log n$
 
 if we have a sorted array
 
-<img src='../asserts/76_6.png'></img>
-<img src='../asserts/76_7.png'></img>
+<img src='../assets/76_6.png'></img>
+<img src='../assets/76_7.png'></img>
 
 since the j pointer will move to the leftest because we have a sorted array.
 
@@ -57,7 +57,7 @@ all of the comparisions : $n$ + $n-1$ + $n-2$ + ... + $1$
 
 ## Tree view of the worst case
 
-<img src='../asserts/76_8.png'></img>
+<img src='../assets/76_8.png'></img>
 
 Partition at levels : $n$
 

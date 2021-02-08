@@ -121,15 +121,15 @@ def test_binary_pick_small():
     post_set = [i for i in range(10)]
     post_set = IndexedSet(post_set)
     ranker = Ranker()
-    assert binary_pick(ranker=ranker, unrank_post_set=post_set,
-                       left=0, right=len(post_set) - 1) == 9
+    asset binary_pick(ranker=ranker, unrank_post_set=post_set,
+                      left=0, right=len(post_set) - 1) == 9
 
 
 def test_binary_pick_big():
     post_set = IndexedSet([i for i in range(10000)])
     ranker = Ranker()
-    assert binary_pick(ranker=ranker, unrank_post_set=post_set,
-                       left=0, right=len(post_set) - 1) == 9999
+    asset binary_pick(ranker=ranker, unrank_post_set=post_set,
+                      left=0, right=len(post_set) - 1) == 9999
 
 
 if __name__ == "__main__":

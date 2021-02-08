@@ -1,1 +1,1 @@
-<img src='../asserts/89_1.png'></img>
+<img src='../assets/89_1.png'></img>

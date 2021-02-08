@@ -10,7 +10,7 @@
 1. Python use array as base structure which is the same as C, C++ and Java.
 2. array is a comtinuous block of bytes in the computer's memory. The block is divided up into n-bytes chinks where n is based on the data type that is stored in the array.
 
-<img src='../asserts/pylsrv_2.png'></img>
+<img src='../assets/pylsrv_2.png'></img>
 
 3. In python, each floating point number use 16 bytes[1] of nemory. So the array in Figure 1 uses a total of 96 bytes.
 4. The base address is the location where the array starts :
@@ -88,7 +88,7 @@ The Python developer designed this strategy as a good tradeoff for computers of 
 
 Such a strategy leads a sequence of array size of 0, 4, 8, 16, 25, 35, 46, 72, 88, ...
 
-<img src='../asserts/pylsrv_1.png'></img>
+<img src='../assets/pylsrv_1.png'></img>
 
 If you wanna insert something. you need to traverse the array to get the position you wanna insert. Thus. It takes $O(N)$
 

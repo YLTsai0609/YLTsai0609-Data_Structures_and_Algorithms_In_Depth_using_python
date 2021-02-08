@@ -8,11 +8,11 @@ we still have time complexity $O(N)$ ... sad =(
 4. point the cross p node back by crossing the deletion - p.next.prev = p
 5. size -= 1
 
-<img src='../asserts/131_1.png'></img>
-<img src='../asserts/131_2.png'></img>
-<img src='../asserts/131_3.png'></img>
-<img src='../asserts/131_4.png'></img>
-<img src='../asserts/131_5.png'></img>
+<img src='../assets/131_1.png'></img>
+<img src='../assets/131_2.png'></img>
+<img src='../assets/131_3.png'></img>
+<img src='../assets/131_4.png'></img>
+<img src='../assets/131_5.png'></img>
 
 ``` Python
 Algorithm delete_any(position)

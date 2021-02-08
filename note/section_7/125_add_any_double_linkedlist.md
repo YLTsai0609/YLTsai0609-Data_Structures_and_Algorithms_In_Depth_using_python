@@ -3,10 +3,10 @@
 1. 走到要插入的地方(需邊界案例處理)
 2. 插Node進去，稍微小複雜(因為左右都有node，要連4次)
 
-<img src='../asserts/125_1.png'></img>
-<img src='../asserts/125_3.png'></img>
-<img src='../asserts/125_4.png'></img>
-<img src='../asserts/125_5.png'></img>
+<img src='../assets/125_1.png'></img>
+<img src='../assets/125_3.png'></img>
+<img src='../assets/125_4.png'></img>
+<img src='../assets/125_5.png'></img>
 
 ``` Python
 Algorithm add_any(e, position)

@@ -1,6 +1,8 @@
 # Data Structures and Algorithms: In-Depth using Python
 
-This repo contains :
+Combining your machine learning midset and data structure and algorithms. Bring your skill to the next level(ML background + CS background)
+
+Content : 
 
 1. Yu Long's note about data structures and algorithm in-depth using python on Udemy.
 
@@ -8,7 +10,7 @@ This repo contains :
 
 3. Data Structure and Algorithm 2020 by **Hsuan-Tien Lin** in NTU.
 
-4. Some real-world chanllenges note, analysis, and implementation.
+4. Some real-world chanllenges note, analysis, and implementation.(we'll introduce some ml-related case here!)
 
 [Udemy Data Structures and Algorithms: In-Depth using Python](https://www.udemy.com/course/learning-data-structures-algorithms-in-python-from-scratch/learn/lecture/14520138#overview)
 

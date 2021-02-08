@@ -6,8 +6,8 @@ By simply :
 
 Insert element in the next avaialbe index, if cell is already occupied.
 
-<img src='../asserts/229_1.png'></img>
-<img src='../asserts/229_2.png'></img>
+<img src='../assets/229_1.png'></img>
+<img src='../assets/229_2.png'></img>
 
 Our hash function is 
 
@@ -17,19 +17,19 @@ $$
 
 # Example
 
-<img src='../asserts/229_3.png'></img>
+<img src='../assets/229_3.png'></img>
 
-<img src='../asserts/229_4.png'></img>
+<img src='../assets/229_4.png'></img>
 
-<img src='../asserts/229_5.png'></img>
+<img src='../assets/229_5.png'></img>
 
-<img src='../asserts/229_6.png'></img>
+<img src='../assets/229_6.png'></img>
 
 As you see, the 64 due to the collision, we put it into bucket `5`
 
-<img src='../asserts/229_7.png'></img>
+<img src='../assets/229_7.png'></img>
 
-<img src='../asserts/229_8.png'></img>
+<img src='../assets/229_8.png'></img>
 
 # How to perform searching?
 

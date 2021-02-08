@@ -8,9 +8,9 @@
 4. size -= 1
 5. return e
 
-<img src='../asserts/115_1.png'></img>
-<img src='../asserts/115_2.png'></img>
-<img src='../asserts/115_3.png'></img>
+<img src='../assets/115_1.png'></img>
+<img src='../assets/115_2.png'></img>
+<img src='../assets/115_3.png'></img>
 
 ``` Python
 Algorithm remove_any()

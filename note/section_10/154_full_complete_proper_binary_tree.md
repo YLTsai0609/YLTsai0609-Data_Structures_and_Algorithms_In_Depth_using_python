@@ -24,7 +24,7 @@ CBT - there is a gap at level 3
 
 PBT - node E has only one child.
 
-<img src='../asserts/154_1.png'></img>
+<img src='../assets/154_1.png'></img>
 
 # Example 2
 
@@ -34,7 +34,7 @@ CBT - no gap for all level from left to right -> left
 
 PBT - each node with 0 or 2 chilren -> no one fit
 
-<img src='../asserts/154_2.png'></img>
+<img src='../assets/154_2.png'></img>
 
 # Example 3
 
@@ -44,7 +44,7 @@ CBT - no gap for all level from left to right -> left
 
 PBT - each node with 0 or 2 chilren -> left
 
-<img src='../asserts/154_3.png'></img>
+<img src='../assets/154_3.png'></img>
 
 # Rules
 

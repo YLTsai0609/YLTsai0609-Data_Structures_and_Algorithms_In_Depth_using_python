@@ -13,7 +13,7 @@ Let's introduce a array representation here
 
 the maximum $N$ of leaves with a binary tree with height $h$ is $2^{h+1} - 1$
 
-<img src='../asserts/155_1.png'></img>
+<img src='../assets/155_1.png'></img>
 
 we won't use index zero. we only need 7 buckets
 
@@ -21,7 +21,7 @@ the order?
 
 following by level, left to right
 
-<img src='../asserts/155_2.png'></img>
+<img src='../assets/155_2.png'></img>
 
 If we use a linear data structure(array) to represent non linear data structure(tree)
 
@@ -33,23 +33,23 @@ If we really want to do so(keep the information), we need another table to recor
 
 Consider node A
 
-<img src='../asserts/155_3.png'></img>
+<img src='../assets/155_3.png'></img>
 
 Consider node B
 
-<img src='../asserts/155_4.png'></img>
+<img src='../assets/155_4.png'></img>
 
 Consider node C
 
-<img src='../asserts/155_5.png'></img>
+<img src='../assets/155_5.png'></img>
 
 Consider node D 
 
-<img src='../asserts/155_6.png'></img>
+<img src='../assets/155_6.png'></img>
 
 Consider any node $i$ in Full Binary Tree
 
-<img src='../asserts/155_7.png'></img>
+<img src='../assets/155_7.png'></img>
 
 we can use the fomula $2i$ (left child), $2i + 1$(right child)
 

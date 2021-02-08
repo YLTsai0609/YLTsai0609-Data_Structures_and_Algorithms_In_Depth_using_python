@@ -1,6 +1,6 @@
 # What is a Double Linked List
 
-<img src='../asserts/117_1.png'></img>
+<img src='../assets/117_1.png'></img>
 
 # advantage?
 

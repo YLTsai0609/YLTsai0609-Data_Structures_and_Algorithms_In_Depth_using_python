@@ -8,7 +8,7 @@ Edge case :
     1. 如果一開始就是空的，return
     2. head assign到下一個後，若只剩一個Node，將tail指爲Null
 
-<img src='../asserts/97_1.png'></img>
+<img src='../assets/97_1.png'></img>
 
 ``` Python
 Algorithm remove_first()

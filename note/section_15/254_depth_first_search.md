@@ -1,16 +1,16 @@
 # Depth First Search(DFS)
 
-<img src='../asserts/254_1.png'></img>
+<img src='../assets/254_1.png'></img>
 
-<img src='../asserts/254_2.png'></img>
+<img src='../assets/254_2.png'></img>
 
-<img src='../asserts/254_3.png'></img>
+<img src='../assets/254_3.png'></img>
 
-<img src='../asserts/254_4.png'></img>
+<img src='../assets/254_4.png'></img>
 
-<img src='../asserts/254_5.png'></img>
+<img src='../assets/254_5.png'></img>
 
-<img src='../asserts/254_6.png'></img>
+<img src='../assets/254_6.png'></img>
 
 Now we are at vetex 5
 
@@ -40,7 +40,7 @@ visit 3
 
 visit 6
 
-<img src='../asserts/254_7.png'></img>
+<img src='../assets/254_7.png'></img>
 
 back to vetex 1
 
@@ -54,7 +54,7 @@ they are all visited
 
 Done
 
-<img src='../asserts/254_8.png'></img>
+<img src='../assets/254_8.png'></img>
 
 # DFS Algorithm
 

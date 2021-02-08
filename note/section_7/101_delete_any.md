@@ -4,8 +4,8 @@
 
 2. 將p的指標跳過一個Node
 
-<img src='../asserts/101_1.png'></img>
-<img src='../asserts/101_2.png'></img>
+<img src='../assets/101_1.png'></img>
+<img src='../assets/101_2.png'></img>
 
 ``` Python
 Algorithm remove_any(position)

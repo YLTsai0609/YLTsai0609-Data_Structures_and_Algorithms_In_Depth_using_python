@@ -1,6 +1,6 @@
 # Graphs Representation
 
-<img src='../asserts/240_1.png'></img>
+<img src='../assets/240_1.png'></img>
 
 Edge List : simplest representation, but there is no efficient way to find a particular edge or set of edges on a vertex.
 

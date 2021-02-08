@@ -12,8 +12,8 @@ but we only need to use tail.prev in double linked list
 5. size -= 1
 6. (不用處理刪除之後會是空，因為tail.next = Null)已經執行了
 
-<img src='../asserts/129_1.png'></img>
-<img src='../asserts/129_2.png'></img>
+<img src='../assets/129_1.png'></img>
+<img src='../assets/129_2.png'></img>
 
 ``` Python
 Algorithm delete_last()

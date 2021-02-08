@@ -8,16 +8,16 @@ But it's the most difficult to implement inm any programming language.
 
 # Example 1
 
-<img src='../asserts/161_1.png'></img>
+<img src='../assets/161_1.png'></img>
 
 # Example 2
 
-<img src='../asserts/161_2.png'></img>
+<img src='../assets/161_2.png'></img>
 
 # Example 3
 
-<img src='../asserts/161_3.png'></img>
+<img src='../assets/161_3.png'></img>
 
 # Example 4
 
-<img src='../asserts/161_4.png'></img>
+<img src='../assets/161_4.png'></img>

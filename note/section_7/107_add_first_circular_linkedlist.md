@@ -13,8 +13,8 @@
    2. newest.next = head (新的變成第一個，指到剩下的list)
    3. head搬到前面，指向newest
 
-<img src='../asserts/107_1.png'></img>
-<img src='../asserts/107_2.png'></img>
+<img src='../assets/107_1.png'></img>
+<img src='../assets/107_2.png'></img>
 
 ``` Python
 Algorithm add_first(e)
