@@ -6,9 +6,9 @@ This repo contains :
 
 2. Python data structure revisited by sereval resources.
 
-3. Data Structure and Algorithm 2020 by **Hsuan**-Tien Lin in NTU.
+3. Data Structure and Algorithm 2020 by **Hsuan-Tien Lin** in NTU.
 
-4. Some real-world chanllenges note and implementation.
+4. Some real-world chanllenges note, analysis, and implementation.
 
 [Udemy Data Structures and Algorithms: In-Depth using Python](https://www.udemy.com/course/learning-data-structures-algorithms-in-python-from-scratch/learn/lecture/14520138#overview)
 
@@ -49,8 +49,9 @@ This repo contains :
 
 | Section | Compelete | Note  |
 |---------|-----------|-------|
-|B-1 Ranking model post-processing algorithm|33%||
+|B-1 Ranking model post-processing algorithm|70%||
 |B-2 Best cutoff threshold for classification model|33%||
+|b_3_tree_based_deep_model_for_recommendation_system|10%|
 
 ## Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU 
 
