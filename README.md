@@ -30,7 +30,7 @@ Content :
 6 (Sorting)|12/21||
 9 (Queues and DEque)|12/28||
 10 (Binary Trees)|12/31|1. Tree terminology <br> 2. Types of binary trees|
-10 (Binary Trees)||Technique for traversing a binary tree|
+10 (Binary Trees)|2/9|Technique for traversing/building a binary tree|
 11 (Binary Search Trees)|||
 12 (Balanced Search Trees)|||
 13 (Priority Queues & Heaps)|||
@@ -53,7 +53,8 @@ Content :
 |---------|-----------|-------|
 |B-1 Ranking model post-processing algorithm|70%||
 |B-2 Best cutoff threshold for classification model|33%||
-|b_3_tree_based_deep_model_for_recommendation_system|10%|
+|B-3 Tree_based_deep_model_for_recommendation_system|10%|
+|B-4 Decision Tree|0%|
 
 ## Data Structure and Algorithm 2020 by Hsuan-Tien Lin in NTU 
 
