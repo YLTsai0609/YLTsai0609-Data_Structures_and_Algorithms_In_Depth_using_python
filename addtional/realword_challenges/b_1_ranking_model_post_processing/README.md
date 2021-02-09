@@ -111,7 +111,13 @@ $$
 
 we get : 
 
-$T(N) = 2N - \frac{N}{2^{k}}$ ~ $2N$
+$T(N) = 2N - \frac{N}{2^{r}}$ ~ $2N$
+
+And finally, our algorithms stops when $2^{r}=N$
+
+So 
+
+$T(N) = 2N - 1 ~～~ 2N$
 
 The algorithm is not depends on $k$, which is better than *Approach I : binary-pick*.
 
