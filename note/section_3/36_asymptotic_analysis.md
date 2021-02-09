@@ -23,3 +23,13 @@ Time Complexity
 |$\theta(n)$|
 
 average case is $\frac{n}{2}$ which is still $n$ by order of growth
+
+# Realworld
+
+業界使用的 big$O$並非學術界的 big $O$，業界所說的big $O$其實意義上比較接近學術界的$\Theta$，因為這個bound比較緊，較具有實際參考價值
+
+https://lucrelin.blogspot.com/2019/04/big-o.html
+
+因此當我們在討論
+
+Worst, Best, Average, 都應該寫$O$
