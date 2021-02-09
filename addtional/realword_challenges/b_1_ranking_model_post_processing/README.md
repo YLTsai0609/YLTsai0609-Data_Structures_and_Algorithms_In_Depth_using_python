@@ -4,7 +4,7 @@ approach 1 : binary-pick
 
 approach 2 : quick select
 
-# Approach I : binary-pick
+# *Approach I : binary-pick*
 
 Input : posts : $\{p_1, p_2, ...p_N\}$ 
 
@@ -46,7 +46,7 @@ $O(N-1) + O(N-2) + ... + O(N-k)$ ~ $O(kN)$
 
 Which is not $O(klogN)$ - I cliamed
 
-# approach II quick select
+# *approach II quick select*
 
 [快速選擇 維基百科](https://zh.m.wikipedia.org/zh-tw/%E5%BF%AB%E9%80%9F%E9%80%89%E6%8B%A9)
 
@@ -87,8 +87,10 @@ everytime, the greater and less ~ $\frac{N}{2}$
 
 Time spend $T(N)$ calculated by number of function calls
 
+number of iterations : $r$
+
 $$
-T(N) = N + \frac{N}{2} + \frac{N}{4} + ... + + \frac{N}{2^{k-1}}
+T(N) = N + \frac{N}{2} + \frac{N}{4} + ... + + \frac{N}{2^{r-1}}
 $$
 
 how to calculate $T$ ?
@@ -96,20 +98,22 @@ how to calculate $T$ ?
 It's a geometric series.
 
 $$
-T(N) = N + \frac{N}{2} + \frac{N}{4} + ... +  \frac{N}{2^{k-1}} ~ ...(1)
+T(N) = N + \frac{N}{2} + \frac{N}{4} + ... +  \frac{N}{2^{r-1}} ~ ...(1)
 $$
 
 $$
-\frac{T(N)}{2} = \frac{N}{2} + \frac{N}{4} + ... + \frac{N}{2^{k-1}} + \frac{N}{2^{k}}~ ...(2)
+\frac{T(N)}{2} = \frac{N}{2} + \frac{N}{4} + ... + \frac{N}{2^{r-1}} + \frac{N}{2^{r}}~ ...(2)
 $$
 
 $$
-(1) - (2) : \frac{T(N)}{2} = N - \frac{N}{2^{k}}
+(1) - (2) : \frac{T(N)}{2} = N - \frac{N}{2^{r}}
 $$
 
 we get : 
 
-$T(N) = 2N - \frac{N}{2^{k}}$ ~ $2N$ where k = 5 or 10
+$T(N) = 2N - \frac{N}{2^{k}}$ ~ $2N$
+
+The algorithm is not depends on $k$, which is better than *Approach I : binary-pick*.
 
 ### Worst case
 
@@ -118,7 +122,7 @@ worst case which is always get one more smaller:
 Total function calls :
 
 $$
-T(N) = N + N-1 + ... +  N-k-1 + .... ～ N^{2}
+T(N) = N + N-1 + ... +  N-r-1 + .... ～ N^{2}
 $$
 
 ### Best case 
@@ -134,5 +138,7 @@ $$
 | Case    | $T(N)$        |
 |---------|------------|
 | Worst   | $O(N^{2})$ |
-| Average | $\theta(2N)$    |
-| Best    | $\Omega(1)$     |
+| Average | $O(2N)$    |
+| Best    | $O(N)$     |
+
+where $N$ represents the number of samples.
