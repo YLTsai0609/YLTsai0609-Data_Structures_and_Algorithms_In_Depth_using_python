@@ -62,6 +62,13 @@ Content :
 |---------|-----------|-------|
 | 1 (Introduction to Data Structures and Algorithms)   | 12/16     | |
 
+## Misc
+
+| Section | Compelete | Note  |
+|---------|-----------|-------|
+| interview white board session sop   |      | |
+| algorithm tradeoff - case study    |      | |
+
 # Useful Reference
 
 [[Note] Yu Long's cs50 note](https://github.com/YLTsai0609/cs50)

@@ -29,4 +29,34 @@ under array representation, the parent always be the floor(children / 2)
 
 <img src='../assets/220_6.png'></img>
 
-TBD
+<img src='../assets/220_7.png'></img>
+
+<img src='../assets/220_8.png'></img>
+
+<img src='../assets/220_9.png'></img>
+
+<img src='../assets/220_10.png'></img>
+
+we check $e=15$ > data[heap_index] or not
+
+we need to perform up-heap-bobbling
+
+<img src='../assets/220_11.png'></img>
+
+<img src='../assets/220_12.png'></img>
+
+Appreantly, the up-heap bubbling can be design as a recusion function or loop-style function.
+
+``` Python
+function heap_insertion(e)
+  if curr_size == maxsize then
+    print('No Space)
+    return
+  curr_size += 1
+  heap_index = curr_size
+  parent_index = floor(heap_index / 2)
+  while heap_index > 1 and e > data[parent_index] then
+    data[heap_index] = data[parent_index]
+    heap_index = parent_index
+  data[heap_index] = e
+```
