@@ -16,17 +16,34 @@ we cannot remove anything we want, we need to make sure our heap still
 You might think why we replace the root as 20, complete?
 
 Maybe it's a harder algorithm to design, we start from simplest.
+
 <img src='../assets/222_5.png'></img>
+
+down heap bubbleing, swap 2 and 20.
+
 <img src='../assets/222_6.png'></img>
 
 # Another Example
 
+Consider `deleteMax()` , 
+
+swap the last element into the root.
+
 <img src='../assets/222_7.png'></img>
+
+down heap bubbling
+
 <img src='../assets/222_8.png'></img>
+
+down heap bubbling
 <img src='../assets/222_9.png'></img>
+
+down heap bubbling
+
 <img src='../assets/222_10.png'></img>
 
 # Time Complexity
 
 replace : $O(1)$
-down-heap-bubbling : $O(log n)$
+
+down-heap-bubbling : $O(log n)$ - due to the worst case of swapping. might perform $h$ times. where $h$ is the height of the tree.
