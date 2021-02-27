@@ -33,9 +33,9 @@ Content :
 10 (Binary Trees)|2/9|Technique for traversing/building a binary tree|
 11 (Binary Search Trees)|||
 12 (Balanced Search Trees)|||
-13 (Priority Queues & Heaps)|||
+13 (Priority Queues & Heaps)|2/27|1. Can be used in Tree-like Interest Modeling|
 14 (Hashing)|1/26||
-15 (Graphs)|1/18||
+15 (Graphs)|1/18|1. Can be used in random-walk|
 
 # Additional
 
