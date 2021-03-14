@@ -31,7 +31,7 @@ Content :
 9 (Queues and DEque)|12/28||
 10 (Binary Trees)|12/31|1. Tree terminology <br> 2. Types of binary trees|
 10 (Binary Trees)|2/9|Technique for traversing/building a binary tree|
-11 (Binary Search Trees)|||
+11 (Binary Search Trees)|3/14|Use tree for better searching functionality.|
 12 (Balanced Search Trees)|||
 13 (Priority Queues & Heaps)|2/27|1. Can be used in Tree-like Interest Modeling|
 14 (Hashing)|1/26||
